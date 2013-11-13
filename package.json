@@ -1,0 +1,10 @@
+{
+  "name": "ebook-convertor",
+  "description": "Parse the RDF file and save the data into MySQL database",
+  "author": "Mason Wan MasonWan@gmail.com",
+  "dependencies": {
+    "mysql": "2.0.0-alpha9",
+    "node-expat": "2.0.0"
+  },
+  "engine": "node >= 0.4.1"
+}

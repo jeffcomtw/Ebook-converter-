@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY pg  "Project Gutenberg">
+        <!ENTITY lic "http://www.gutenberg.org/license">
+        <!ENTITY f   "http://www.gutenberg.org/">
+        ]>
+
+<!-- 
+
+The Project Gutenberg Catalog in RDF/XML Format
+
+  Copyright (C) 2004-present by 
+
+  Project Gutenberg Literary Archive Foundation
+  4557 Melan Drive S.
+  Fairbanks AK 99712
+  U.S.A.
+
+
+LICENSE TERMS
+
+
+This file ("work") is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License (GPL)
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This work is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Please become familiar with the GNU GPL before using this file.
+
+You can get a full copy of the GNU General Public License online at:
+
+  http://www.gnu.org/licenses/gpl.html
+
+The GNU General Public License is explained in human language at:
+
+  http://creativecommons.org/licenses/GPL/2.0/
+
+If you are uncertain about the terms of the license or whether your
+intended use is legitimate, please email gbnewby@pglaf.org for
+clarification.
+
+Thank you for your interest in Project Gutenberg.  For more
+information about Project Gutenberg and its goals, visit
+the Official Project Gutenberg Web site at 
+
+  http://www.gutenberg.org
+
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+         xmlns:cc="http://web.resource.org/cc/"
+         xmlns:pgterms="http://www.gutenberg.org/rdfterms/"
+         xml:base="http://www.gutenberg.org/feeds/catalog.rdf">
+
+    <cc:Work rdf:about="">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/GPL/2.0/"/>
+    </cc:Work>
+
+    <cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+        <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+        <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+    </cc:License>
+
+    <rdf:Description rdf:about="">
+        <dc:created>
+            <dcterms:W3CDTF>
+                <rdf:value>2013-11-10</rdf:value>
+            </dcterms:W3CDTF>
+        </dc:created>
+    </rdf:Description>
+
+    <pgterms:etext rdf:ID="etext4291">
+        <dc:publisher>&pg;</dc:publisher>
+        <dc:title rdf:parseType="Literal">Copyright Law of the United States of America and Related Laws Contained in
+            Title 17 of the United States Code, Circular 92
+        </dc:title>
+        <dc:creator>
+            <rdf:Bag>
+                <rdf:li rdf:parseType="Literal">United States</rdf:li>
+                <rdf:li rdf:parseType="Literal">Library of Congress. Copyright Office</rdf:li>
+            </rdf:Bag>
+        </dc:creator>
+        <pgterms:friendlytitle rdf:parseType="Literal">Copyright Law of the United States of America and
+        </pgterms:friendlytitle>
+        <dc:language>
+            <dcterms:ISO639-2>
+                <rdf:value>en</rdf:value>
+            </dcterms:ISO639-2>
+        </dc:language>
+        <dc:subject>
+            <dcterms:LCSH>
+                <rdf:value>Copyright -- United States</rdf:value>
+            </dcterms:LCSH>
+        </dc:subject>
+        <dc:subject>
+            <dcterms:LCC>
+                <rdf:value>KF</rdf:value>
+            </dcterms:LCC>
+        </dc:subject>
+        <dc:created>
+            <dcterms:W3CDTF>
+                <rdf:value>2003-07-01</rdf:value>
+            </dcterms:W3CDTF>
+        </dc:created>
+        <pgterms:downloads>
+            <xsd:nonNegativeInteger>
+                <rdf:value>5</rdf:value>
+            </xsd:nonNegativeInteger>
+        </pgterms:downloads>
+        <dc:rights rdf:resource="&lic;"/>
+    </pgterms:etext>
+
+    <pgterms:etext rdf:ID="etext4189">
+        <dc:publisher>&pg;</dc:publisher>
+        <dc:title rdf:parseType="Literal">Diary of Samuel Pepys — Volume 65: May 1668</dc:title>
+        <dc:creator rdf:parseType="Literal">Pepys, Samuel, 1633-1703</dc:creator>
+        <dc:contributor>
+            <rdf:Bag>
+                <rdf:li rdf:parseType="Literal">Bright, Mynors, 1818-1883 [Translator]</rdf:li>
+                <rdf:li rdf:parseType="Literal">Braybrooke, Richard Griffin, Baron, 1783-1858 [Editor]</rdf:li>
+                <rdf:li rdf:parseType="Literal">Wheatley, Henry B. (Henry Benjamin), 1838-1917 [Editor]</rdf:li>
+            </rdf:Bag>
+        </dc:contributor>
+        <pgterms:friendlytitle rdf:parseType="Literal">Diary of Samuel Pepys — Volume 65: May 1668
+        </pgterms:friendlytitle>
+        <dc:language>
+            <dcterms:ISO639-2>
+                <rdf:value>en</rdf:value>
+            </dcterms:ISO639-2>
+        </dc:language>
+        <dc:subject>
+            <rdf:Bag>
+                <rdf:li>
+                    <dcterms:LCSH>
+                        <rdf:value>Cabinet officers -- Great Britain -- Diaries</rdf:value>
+                    </dcterms:LCSH>
+                </rdf:li>
+                <rdf:li>
+                    <dcterms:LCSH>
+                        <rdf:value>Diarists -- Great Britain -- Diaries</rdf:value>
+                    </dcterms:LCSH>
+                </rdf:li>
+                <rdf:li>
+                    <dcterms:LCSH>
+                        <rdf:value>Great Britain -- History -- Charles II, 1660-1685 -- Sources</rdf:value>
+                    </dcterms:LCSH>
+                </rdf:li>
+                <rdf:li>
+                    <dcterms:LCSH>
+                        <rdf:value>Pepys, Samuel, 1633-1703 -- Diaries</rdf:value>
+                    </dcterms:LCSH>
+                </rdf:li>
+                <rdf:li>
+                    <dcterms:LCSH>
+                        <rdf:value>Great Britain -- Social life and customs -- 17th century -- Sources</rdf:value>
+                    </dcterms:LCSH>
+                </rdf:li>
+            </rdf:Bag>
+        </dc:subject>
+        <dc:subject>
+            <dcterms:LCC>
+                <rdf:value>DA</rdf:value>
+            </dcterms:LCC>
+        </dc:subject>
+        <dc:created>
+            <dcterms:W3CDTF>
+                <rdf:value>2004-12-01</rdf:value>
+            </dcterms:W3CDTF>
+        </dc:created>
+        <pgterms:downloads>
+            <xsd:nonNegativeInteger>
+                <rdf:value>2</rdf:value>
+            </xsd:nonNegativeInteger>
+        </pgterms:downloads>
+        <dc:rights rdf:resource="&lic;"/>
+    </pgterms:etext>
+</rdf:RDF>
